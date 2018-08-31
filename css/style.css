@@ -312,8 +312,8 @@ header {
 
 .slider_box {
 	width: 100%;
-	background-image: url(../img/slider_1.jpg);
-	background-size: 100%;
+	background:#333 url(../img/slider_1.jpg) center center no-repeat;
+	background-size: cover;
 	padding: 85px 0 75px 0;
 	position: relative;
 	/*filter: blur(5px);*/
