@@ -13,6 +13,11 @@
 		margin: 0 30px;
 	}
 }
+@media(min-width:992px){
+	.drop_down_menu li{
+		margin-bottom:15px;
+	}
+}
 @media (max-width: 991px) {
 	.menu_list li a {
 		font-size: 12px;
