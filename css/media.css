@@ -15,7 +15,8 @@
 }
 @media(min-width:992px){
 	.drop_down_menu li{
-		margin-bottom:15px;
+		padding-bottom:15px;
+		padding-left:15px;
 	}
 }
 @media (max-width: 991px) {
