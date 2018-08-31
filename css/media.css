@@ -12,12 +12,27 @@
 	.p_boxes .col-lg-4{
 		margin: 0 30px;
 	}
+	.user_label{
+		padding-bottom:15px!important;
+	}
 }
 @media(min-width:992px){
 	.drop_down_menu li{
-		padding-bottom:15px;
-		padding-left:15px;
+		padding-bottom: 5px;
+		padding-left: 5px;
 	}
+	nav .menu_margin{
+		max-width:840px;
+	}
+	.navbar-nav{
+		max-width: 550px;
+	}
+	.navbar-brand,
+	.menu_list_3,
+	.menu_list_2{
+		padding-bottom:10px;
+	}
+
 }
 @media (max-width: 991px) {
 	.menu_list li a {
@@ -179,7 +194,7 @@
 		margin:0;
 	}
 	.user_label{
-		padding-bottom:30px!important;
+		padding-bottom:15px!important;
 	}
 	.user_label:hover span{
 		color:#aaa;
@@ -197,6 +212,31 @@
 
 	.mobile_only {
 		display: block;
+	}
+	.message_list li:nth-child(2){
+		margin-right:0;
+		width:201px;
+	}
+	.free_right{
+		height:345px;
+		display:flex;
+		align-items:center;
+		justify-content:center
+	}
+	.menu{
+		position:relative;
+		margin-top:10px;
+	}
+	.navbar{
+		position:absolute;
+	}
+	.menu_list .mobile_only,
+	.menu_list_2 li{
+		padding-bottom:0;
+	}
+	.menu_list_3,
+	.menu_list_2{
+		padding-top: 0!important;
 	}
 }
 
@@ -216,7 +256,6 @@
 	}
 	.free_fluid .slide_text_max {
 		font-size: 26px;
-		font-weight: 600;
 	}
 	.succes_box {
 		margin-bottom: 50px;
@@ -239,13 +278,19 @@
 	.game_box:hover > .game_box_inner {
     	opacity: unset;
 	}
-	.game_box > .game_box_inner {
+	/*.game_box > .game_box_inner {
     	opacity: 1;
-	}
+	}*/
 	.games_list_box{
 		display:flex;
 		flex-direction:column;
 		align-items: center;
+	}
+	.game_box{
+		height:300px;
+	}
+	.game_img img{
+		width:100%;
 	}
 }
 
@@ -328,6 +373,9 @@
 	.key_plate svg{
 		display:none;
 	}
+	.game_box{
+		height:280px;
+	}
 }
 @media (max-width: 480px){
 	.balance{
@@ -353,5 +401,167 @@
 		min-width:30px;
 		margin-right:0;
 		margin-bottom:15px;
+	}
+	header{
+		margin:15px 0;
+		height:15px;
+	}
+	.container{
+		padding:0;
+	}
+	.succes_fluid{
+		margin-top:22px;
+	}
+	.title_md{
+		margin:0 0 35px 0;
+		font-size:22px;
+	}
+	.succes_fluid .container{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.succes_box{
+		padding:10px 15px 30px;
+	}
+	.succes_list{
+		padding:0;
+	}
+	.succes_img img{
+		height:140px;
+		width:140px;
+	}
+	.succes_title{
+		font-size:22px;
+		margin:20px;
+	}
+	.succes_list li{
+		font-size:11px;
+		margin-bottom:10px;
+	}
+	.succes_btn_box .succes_btn{
+		font-size:11.3px;
+	}
+	.succes_btn{
+		height: 35px;
+		min-height: 35px;
+		width:unset;
+		padding: 0 15px;
+		line-height: 1;
+	}
+	.succes_box{
+		margin-bottom:32px;
+	}
+	.free_fluid{
+		margin-top:20px;
+		height: 290px;
+		padding:35px 10px 45px;
+	}
+	.free_fluid .du_want{
+		margin: 0;
+	}
+	.free_btn{
+		width:230px;
+	}
+	.top_games_fluid{
+		margin-top:20px;
+	}
+	.under_title{
+		font-weight:normal;
+	}
+	.under_title br{
+		display:none;
+	}
+	.top_game_btns a:first-child .top_game_btn_a{
+		width: 200px;
+	}
+	.game_box{
+		height:217px;
+		border-radius:5px;
+		margin-bottom:20px;
+	}
+	.game_box .game_img{
+		border-radius:5px;
+	}
+	.game_box:hover > .game_box_inner {
+    	opacity: 0;
+	}
+	.game_box:hover > .game_price_box,
+	.game_price_box{
+		bottom:-12px;
+	}
+	.game_box:hover > .game_price_box p,
+	.game_price{
+		font-size:14px;
+	}
+	.game_price{
+		padding:0 12px;
+	}
+	.top_games_fluid .col-6:nth-child(odd){
+		padding-right:5px;
+	}
+	.top_games_fluid .col-6:nth-child(even){
+		padding-left:5px;
+	}
+	.top_games_fluid .col-12{
+		margin-top: 15px;
+	}
+	.see_rnd_game{
+		font-size: 15px;		
+	}
+	.see_rnd_game i{
+		margin:5px;
+		font-size:10px;
+	}
+	.footer_fluid{
+		padding:30px 15px;
+	}
+	.footer_fluid .container .row div{
+		height: auto;
+	}
+	.footer_fluid,
+	.share_icon_lis{
+		margin-top:35px;
+	}
+	.share_icon_lis{
+		margin-bottom:50px;
+	}
+	.vkapi{
+		display:none;
+	}
+	.mobile_vkapi{
+		display:block;
+		height:150px;
+		width:180px;
+		margin: 0 auto;
+	}
+	.menu{
+		position:relative;
+		margin-top:-5px;
+	}
+	.navbar-brand{
+		padding:3px;
+	}
+	.current_acc{
+		margin-right:15px;
+	}
+	.logon_list li{
+		margin-bottom:20px;
+		font-size: 18px;
+		height: 40px;
+		width: 280px;
+	}
+	.modal_balance_title{
+		font-size:22px;
+	}
+	#login .modal_balance_under_title{
+		font-size:14px;
+		font-weight:300;
+		margin:30px 0 15px;
+	}
+	.modal-body{
+		padding-top:0;
+	}
+	.succes_list li:not(:last-child){
+		padding-bottom:0;
 	}
 }
