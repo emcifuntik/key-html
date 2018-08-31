@@ -147,7 +147,6 @@ header {
 }
 .menu_list li {
 	margin-right: 20px;
-	padding-bottom: 10px;
 	border-bottom: 2px solid transparent;
 	position: relative;
 	cursor: pointer;
@@ -1864,3 +1863,6 @@ header {
 	margin-top:130px;
 }
 
+.mobile_only {
+	display: none;
+}

@@ -183,7 +183,14 @@
 	}
 	.menu_margin .menu_list_3,
 	.menu_margin .menu_list_2{
-		padding-bottom:15px;
+		padding-bottom: 15px;
+	}
+	.menu_list li {
+		padding-bottom: 15px;
+	}
+
+	.mobile_only {
+		display: block;
 	}
 }
 
