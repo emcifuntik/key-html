@@ -870,6 +870,41 @@ header {
 .bonus_box_3 {
 	height: 650px;
 }
+
+.bonus_1{
+	background: url("../img/bonus_1.jpg") center center no-repeat;
+	background-size: cover;
+}
+.bonus_2{
+	background: url("../img/bonus_2.jpg") center center no-repeat;
+	background-size: cover;
+}
+.bonus_3{
+	background: url("../img/bonus_3.jpg") center center no-repeat;
+	background-size: cover;
+}
+.bonus_4{
+	background: url("../img/bonus_4.jpg") center center no-repeat;
+	background-size: cover;
+}
+.bonus_5{
+	background: url("../img/bonus_5.jpg") center center no-repeat;
+	background-size: cover;
+}
+.bonus_6{
+	background: url("../img/bonus_6.jpg") center center no-repeat;
+	background-size: cover;
+}
+.bonus_7{
+	background: url("../img/bonus_7.jpg") center center no-repeat;
+	background-size: cover;
+}
+.bonus_8{
+	background: url("../img/bonus_8.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+
 .bonus_inner {
 	position: absolute;
 	left: 0;
