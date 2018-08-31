@@ -1901,3 +1901,6 @@ header {
 .mobile_only {
 	display: none;
 }
+.dropdown-item img{
+	margin-right:10px;
+}
