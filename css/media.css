@@ -440,6 +440,8 @@
 	}
 	.succes_btn_box .succes_btn{
 		font-size:11.3px;
+		bottom: -6px;
+		position:  relative;
 	}
 	.succes_btn{
 		height: 25px;
